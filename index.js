@@ -11,7 +11,7 @@ require('./utils/ComponentLoader.js')(client);
 require('./utils/EventLoader.js')(client);
 require('./utils/RegisterCommands.js')(client);
 
-console.log(`Logging in...`);
+console.log(`Loggingo in...`);
 client.login(client.config.TOKEN);
 
 const TARGET_CHANNEL_ID = '1358179255082684737';
